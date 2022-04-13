@@ -11,10 +11,17 @@ public class Concatenation {
         System.out.println("My Double number is " + doubleNum);
         System.out.println("My Float number is " + floatNum);
         System.out.println("I have declared a character with the value " + c);
-        System.out.println("Boolean is " + truth);
-        System.out.printf("I have declared a string variable with the value %s", text);
-        System.out.printf("I have declared an integer variable with the value %d", number);
-        System.out.println("I have declared an integer variable with the value %f", doubleNum);
 
+
+        System.out.println();
+
+        System.out.printf("I have declared a string variable with the value %s", text);
+
+        System.out.println();
+
+        System.out.printf("I have declared an integer variable with the value %d", number);
+        System.out.printf("I have declared an double variable with the value %f and a string with the value %s", doubleNum, text);
+        System.out.println();
+        System.out.printf("We are declaring a boolean %b " + truth);
     }
 }
