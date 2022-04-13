@@ -18,5 +18,12 @@ public class Variables {
         System.out.println(myDoubleNumber);
         float myFloatNumber = 66.6F;
         System.out.println(myFloatNumber);
+
+        char letter = 'A';
+        System.out.println(letter);
+
+        boolean value = true;
+        System.out.println(value);
+
     }
 }
