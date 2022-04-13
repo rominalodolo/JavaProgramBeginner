@@ -10,7 +10,7 @@ public class ScannerExercise {
         System.out.println("Keep up the good work and next year you will be a " + desigedProfession);
 
         // 2.
-        Scanner reader = new Scanner(System.in)
+        Scanner reader = new Scanner(System.in);
         System.out.println("Welcome to the system. How old are you? ");
         int age = reader.nextInt();
         System.out.println("Oh I see. You're " + age + " years old.");
@@ -39,6 +39,11 @@ public class ScannerExercise {
 
         System.out.printf("The sum is equal to %d \n The difference is equal to %d \n" + " The product is equal to %d \n The average is equal to %f", sum, diff, product, average);
 
-
+        // 5.
+        Scanner reader3 = new Scanner(System.in);
+        System.out.println("Enter the temperature in celsious degrees: ");
+        int celsiusDegrees = reader3.nextInt();
+        double fahrenheitDegrees = celsiusDegrees * (9.0/5.0) + 32;
+        System.out.println("The result in Fahrenheit Degrees is equal to " + fahrenheitDegrees);
     }
 }
