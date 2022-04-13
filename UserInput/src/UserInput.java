@@ -6,6 +6,8 @@ public class UserInput {
         Scanner reader = new Scanner(System.in);
         System.out.println("Please enter a text: ");
         String insertedText = reader.nextLine();
+        System.out.println("You entered text: " + insertedText);
 
+        
     }
 }
