@@ -13,7 +13,8 @@ public class Concatenation {
         System.out.println("I have declared a character with the value " + c);
         System.out.println("Boolean is " + truth);
         System.out.printf("I have declared a string variable with the value %s", text);
-
+        System.out.printf("I have declared an integer variable with the value %d", number);
+        System.out.println("I have declared an integer variable with the value %f", doubleNum);
 
     }
 }
