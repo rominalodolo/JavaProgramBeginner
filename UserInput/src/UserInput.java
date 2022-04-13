@@ -16,7 +16,6 @@ public class UserInput {
         double insertedDouble = reader.nextDouble();
         System.out.println("You have entered a double number: " + insertedDouble); // use a comma
 
-
         System.out.println("Please enter a float number(please use a comma for this system): ");
         float insertedFloat = reader.nextFloat();
         System.out.println("You have entered a float number: " + insertedFloat);
