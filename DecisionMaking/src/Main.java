@@ -7,6 +7,8 @@ public class Main {
         int age = reader.nextInt();
         if(age>= 18){
             System.out.println("You are an adult.");
+        }else{
+            System.out.println("You're too young.");
         }
         System.out.println("The program is over.");
     }
