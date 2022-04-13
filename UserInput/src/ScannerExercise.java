@@ -1,0 +1,2 @@
+public class ScannerExercise {
+}

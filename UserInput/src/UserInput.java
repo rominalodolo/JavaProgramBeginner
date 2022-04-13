@@ -4,6 +4,9 @@ public class UserInput {
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
+        Scanner readerText = new Scanner(System.in);
+
+
         System.out.println("Please enter a text: ");
         String insertedText = reader.nextLine();
         System.out.println("You entered text: " + insertedText);
@@ -15,6 +18,10 @@ public class UserInput {
         System.out.println(" Please enter a double number, with a comma instead of a dot: ");
         double insertedDouble = reader.nextDouble();
         System.out.println("You have entered a double number: " + insertedDouble); // use a comma
+
+        System.out.println("Please enter a text: ");
+        String insertedText2 = readerText.nextLine();
+        System.out.println("You entered text: " + insertedText2);
 
         System.out.println("Please enter a float number(please use a comma for this system): ");
         float insertedFloat = reader.nextFloat();
