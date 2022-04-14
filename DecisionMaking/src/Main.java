@@ -11,5 +11,11 @@ public class Main {
             System.out.println("You're too young.");
         }
         System.out.println("The program is over.");
+
+        System.out.println("Enter the color of the ");
+        String color = reader.nextLine();
+        if (color.equals("red")){
+            System.out.println("We are waiting...");
+        }
     }
 }
