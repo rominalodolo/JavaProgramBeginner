@@ -16,6 +16,10 @@ public class Main {
         String color = reader.nextLine();
         if (color.equals("red")){
             System.out.println("We are waiting...");
+        }else if(color.equals("yellow")){
+            System.out.println("We are careful.");
+        }else if (color.equals("green")){
+            System.out.println("We can cross the street.");
         }
     }
 }
