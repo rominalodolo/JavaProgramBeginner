@@ -56,7 +56,17 @@ public class Exercises {
         int age = reader.nextInt();
         System.out.println("Now enter the age you would like to retire at: ");
         int retire = reader.nextInt();
-
+        if (age <= 0 || retire <= 0){
+            System.out.println("You have entered a negative age.");
+        }else if(age >= 110 || retire >= 110){
+            System.out.println("You can't enter an age above 110.");
+        }else{
+            if (age <retire){
+                System.out.println("You still have some work " + (retire - age) + "years");
+            }else{
+                System.out.println("You are already retired " + (age-retire) + "years ago.");
+            }
+        }
 
     }
 }
