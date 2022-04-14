@@ -1,3 +1,4 @@
+import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Exercises {
@@ -34,7 +35,28 @@ public class Exercises {
         }
 
 //        4.
+        System.out.println("I'm going to ask you for three numbers...");
+        System.out.println("Enter your first number: ");
+        int first = reader.nextInt();
+        System.out.println("Enter your second number: ");
+        int second = reader.nextInt();
+        System.out.println("Enter your third number: ");
+        int third = reader.nextInt();
 
-        
+        int smallest = first;
+        if (second < smallest){
+            smallest = second;
+        }else if(third < smallest){
+            smallest = third;
+        }
+        System.out.println("The smallest number you gave is " + smallest);
+
+//        5.
+        System.out.println("Please enter your age: ");
+        int age = reader.nextInt();
+        System.out.println("Now enter the age you would like to retire at: ");
+        int retire = reader.nextInt();
+
+
     }
 }
